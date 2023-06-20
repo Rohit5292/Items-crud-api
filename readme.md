@@ -32,4 +32,28 @@ PUT /api/items/:id: Update an existing item by its ID.
 DELETE /api/items/:id: Delete an item by its ID.
  You can use tools like Postman or cURL to interact with the API endpoints.
 
+
+
+ ## Testing with Jest
+
+[Jest](https://jestjs.io/) is a popular JavaScript testing framework that provides a simple and efficient way to write tests for your code.
+
+### Installation
+
+To use Jest in your project, you need to install it as a dev dependency. Run the following command:
+
+
+### Running Tests
+
+You can run your Jest tests using the following command:
+
+```bash
+npm test
+
+
+This command will execute all the tests in your project and display the test results in the console.
+
+
+
+
  
